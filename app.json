@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "quiz-pro",
+    "slug": "quiz-pro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assets": {
+      "fonts": [
+        "./assets/fonts/Poppins-Regular.ttf",
+        "./assets/fonts/Poppins-Bold.ttf",
+        "./assets/fonts/Poppins-Medium.ttf"
+      ]
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
